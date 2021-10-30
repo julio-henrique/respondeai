@@ -1,6 +1,6 @@
 # Reponde ai - O seu aplicativo de lives
 
-Aplicativo que permite as pessoas que estão em live enviar as suas perguntas, em tempo real, para serem respondidas, ajuda muito hein kkk. Com Login usando Google OAtuh do firebase + bancdo de dados real time do Firebase e regras de negócio.
+Aplicativo que permite as pessoas que estão assistindo lives enviar as suas perguntas, em tempo real, para o apresentador, ajuda muito hein kkk. Com Login usando Google OAtuh do firebase + bancdo de dados real time do Firebase e regras de negócio.
 
 ## Tabela de conteúdos
 
