@@ -54,12 +54,15 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 
     async function signInWithGoogle() {
         const provider = new firebase.auth.GoogleAuthProvider()
+        // Criando o login
 
         const result = await auth.signInWithPopup(provider)
+        // Escolhendo como fazer o login, neste caso com um popup
         if (result.user) {
             const { displayName, photoURL, uid } = result.user
 
             if (!displayName || !photoURL) {
+                // Condicional para negar o login a usuários que não tenham foto ou nome
                 throw new Error('Missing either Name or photo from Google Account')
             }
 
