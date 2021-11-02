@@ -1,5 +1,7 @@
 import { FormEvent, useState } from 'react'
 import { useHistory } from 'react-router-dom'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 import googleIconImg from '../assets/google-icon.svg'
 import illustrationImg from '../assets/illustration.svg'
@@ -35,12 +37,12 @@ export function Home() {
         const roomRef = await database.ref(`rooms/${roomCode}`).get()
 
         if (!roomRef.exists()) {
-            alert('Room does not exists.')
+            toast.error('Essa sala não existe');
             return
         }
 
         if (roomRef.val().endedAt) {
-            alert('Esta sala foi encerrada.')
+            toast.error('Esta sala foi encerrada.')
             return
         }
 
@@ -49,6 +51,7 @@ export function Home() {
 
     return (
         <div id="page-auth">
+            <ToastContainer />
             <aside>
                 <img src={illustrationImg} alt="Ilustração de P &amp; R" />
                 <strong>Crie salas de Q &amp; A ao vivo</strong>

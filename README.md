@@ -57,6 +57,7 @@ O usuário que é VISITANTE da sala deveria ser capaz de:
 
 - Web-vitals
 - SASS
+- [React Toastify](https://www.npmjs.com/package/react-toastify) - Add notifications to your app with ease
 - [React](https://reactjs.org/) - JS lib
 - [Firebase](https://firebase.google.com/) - Back-end as a service
 - [Typescript](https://www.typescriptlang.org/) - TypeScript is JavaScript with syntax for types.
