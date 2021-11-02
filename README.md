@@ -39,7 +39,10 @@ O usuário que é VISITANTE da sala deveria ser capaz de:
 
 ### Screenshot
 
-![screen shot](./screenshot.jpg)
+![Tela de Login](./src/assets/screenshot/respondeai.png)
+![Criando a sala](./src/assets/respondeai2.png)
+![Visão do usuário](./src/assets/respondeai3.png)
+![Visão do Admin](./src/assets/respondeai4.png)
 
 ### Links
 
