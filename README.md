@@ -1,6 +1,6 @@
-# Frontend Mentor - Next Level Week - Heat
+# Reponde ai - O seu aplicativo de lives
 
-Aplicativo que permite as pessoas que estão em live enviar as suas perguntas, em tempo real, para serem respondidas, ajuda muito hein kkk. Com Login usando Google OAtuh do firebase + bancdo de dados real time do Firebase e regras de negócio.
+Aplicativo que permite as pessoas que estão assistindo lives enviar as suas perguntas, em tempo real, para o apresentador, ajuda muito hein kkk. Com Login usando Google OAtuh do firebase + bancdo de dados real time do Firebase e regras de negócio.
 
 ## Tabela de conteúdos
 
@@ -53,9 +53,7 @@ O usuário que é VISITANTE da sala deveria ser capaz de:
 ### Tecnologias
 
 - Web-vitals
-- Firebase
 - SASS
-- Typescript
 - [React](https://reactjs.org/) - JS lib
 - [Firebase](https://firebase.google.com/) - Back-end as a service
 - [Typescript](https://www.typescriptlang.org/) - TypeScript is JavaScript with syntax for types.
